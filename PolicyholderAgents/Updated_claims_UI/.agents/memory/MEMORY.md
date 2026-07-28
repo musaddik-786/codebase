@@ -1,0 +1,5 @@
+- [Project structure (flattened)](project-structure.md) — repo was de-monorepo'd to a single root Vite app; no artifacts/, no pnpm workspace, Replit preview/deploy intentionally dropped.
+- [Local backend endpoints (FNOL)](local-backend-endpoints.md) — localhost backends (2239/8801) aren't reachable from Replit; calls fail here by design, request shapes are assumptions.
+- [Vite ENOSPC file-watcher crash](vite-watcher-enospc.md) — dev server died watching .local pnpm store; fix is server.watch.ignored, not raising inotify limit.
+- [App architecture & rendering notes](app-architecture.md) — root-level Vite app (not an artifact); screenshots fail, verify via tsc+console+user preview; claims read from src/data/mock.ts.
+- [Vite middleware API plugins](vite-middleware-api.md) — APIs are Vite configureServer middleware (no separate server); restart workflow to apply plugin edits; scope endpoints with required params.

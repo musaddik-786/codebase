@@ -1,0 +1,104 @@
+{
+  "found": true,
+  "policy": {
+    "gw_policy_id": "pc:Se_HISGTYk_K8z0ffYUcp",
+    "policy_number": "2767977312",
+    "status": "Unknown",
+    "effective_date": "2025-07-16T04:01:00.000Z",
+    "expiration_date": "2026-07-16T04:01:00.000Z",
+    "coverage_types": [],
+    "insured_name": "Hexa Tester",
+    "insured_address": "2850 S. Delaware St.\nSan Mateo, CA 94403",
+    "account_number": "9433164772",
+    "product_name": "Manual Products",
+    "raw": {
+      "count": 1,
+      "data": [
+        {
+          "attributes": {
+            "accountNumber": "9433164772",
+            "effectiveDate": "2025-07-16T04:01:00.000Z",
+            "expirationDate": "2026-07-16T04:01:00.000Z",
+            "insuredName": "Hexa Tester",
+            "policyAddress": "2850 S. Delaware St.\nSan Mateo, CA 94403",
+            "policyId": "pc:Se_HISGTYk_K8z0ffYUcp",
+            "policyNumber": "2767977312",
+            "producerOfRecordName": "Armstrong and Company",
+            "producerOfServiceName": "Armstrong and Company",
+            "product": {
+              "displayName": "Manual Products",
+              "id": "Manual"
+            }
+          },
+          "links": {
+            "self": {
+              "href": "/policy/v1/policies/pc:Se_HISGTYk_K8z0ffYUcp",
+              "methods": [
+                "get"
+              ]
+            }
+          }
+        }
+      ],
+      "links": {
+        "first": {
+          "href": "/policy/v1/search/policies",
+          "methods": [
+            "post"
+          ]
+        },
+        "self": {
+          "href": "/policy/v1/search/policies",
+          "methods": [
+            "post"
+          ]
+        }
+      }
+    }
+  },
+  "error": null,
+  "raw_gw_response": {
+    "count": 1,
+    "data": [
+      {
+        "attributes": {
+          "accountNumber": "9433164772",
+          "effectiveDate": "2025-07-16T04:01:00.000Z",
+          "expirationDate": "2026-07-16T04:01:00.000Z",
+          "insuredName": "Hexa Tester",
+          "policyAddress": "2850 S. Delaware St.\nSan Mateo, CA 94403",
+          "policyId": "pc:Se_HISGTYk_K8z0ffYUcp",
+          "policyNumber": "2767977312",
+          "producerOfRecordName": "Armstrong and Company",
+          "producerOfServiceName": "Armstrong and Company",
+          "product": {
+            "displayName": "Manual Products",
+            "id": "Manual"
+          }
+        },
+        "links": {
+          "self": {
+            "href": "/policy/v1/policies/pc:Se_HISGTYk_K8z0ffYUcp",
+            "methods": [
+              "get"
+            ]
+          }
+        }
+      }
+    ],
+    "links": {
+      "first": {
+        "href": "/policy/v1/search/policies",
+        "methods": [
+          "post"
+        ]
+      },
+      "self": {
+        "href": "/policy/v1/search/policies",
+        "methods": [
+          "post"
+        ]
+      }
+    }
+  }
+}

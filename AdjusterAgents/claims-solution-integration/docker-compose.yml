@@ -1,0 +1,14 @@
+services:
+  claims-app:
+    build: .
+    image: hexaware-claims-solution
+    ports:
+      - "5000:5000"
+    environment:
+      PORT: 5000
+      # Required — Azure PostgreSQL connection string. Set it in your shell or a
+      # .env file next to this compose file (never commit real secrets).
+      AZURE_DATABASE_URL: ${AZURE_DATABASE_URL}
+      # Optional — enables direct blob viewing in the Document Hub.
+      AZURE_STORAGE_SAS: ${AZURE_STORAGE_SAS:-}
+    restart: unless-stopped

@@ -1,0 +1,43 @@
+# Node
+2
+node_modules/
+3
+**/node_modules/
+4
+ 
+5
+# Python
+6
+__pycache__/
+7
+*.pyc
+8
+venv/
+9
+.env
+10
+ 
+11
+# Build folders
+12
+dist/
+13
+build/
+14
+.vite/
+15
+ 
+16
+# IDE
+17
+.vscode/
+18
+.idea/
+19
+ 
+20
+# OS
+21
+.DS_Store
+22
+Thumbs.db

@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(py -3 MCP/main.py)",
+      "Bash(curl -s http://localhost:8800/health)",
+      "PowerShell(netstat -an)",
+      "Bash(curl -s -N -X POST http://localhost:8801/chat -H 'Content-Type: application/json' -d '{\"message\": \"Hello, I want to file a claim\"}' --max-time 60)"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+﻿# ── Web framework ──────────────────────────────────────────────────────────────
+fastapi>=0.118.3
+fastapi-mcp>=0.3.4
+uvicorn>=0.34.0
+python-multipart>=0.0.20
+
+# ── Core utilities ─────────────────────────────────────────────────────────────
+python-dotenv==1.0.1
+requests>=2.32.3
+pydantic>=2.11.4
+httpx>=0.28.1
+
+# ── Azure OpenAI / OpenAI SDK ──────────────────────────────────────────────────
+openai>=2.38.0
+
+# ── LangChain / LangGraph (Python 3.14 compatible) ────────────────────────────
+langgraph>=1.2.1
+langchain>=0.3.27
+langchain-core>=1.0.0
+langchain-community>=0.3.27
+langchain-openai>=1.2.2
+langchain-mcp-adapters>=0.2.2
+
+# ── Phoenix / Arize observability (optional) ───────────────────────────────────
+openinference-instrumentation-langchain>=0.1.53
+arize-phoenix-otel>=0.16.0
+arize-phoenix-client>=2.9.0
+
+# ── Azure PostgreSQL ───────────────────────────────────────────────────────────
+psycopg2-binary>=2.9.10
+
+# ── WebSocket client (Azure OpenAI Realtime Whisper API) ──────────────────────
+websockets>=14.2
+
+# ── Audio format conversion (PCM16 mono 24 kHz for Realtime API) ──────────────
+pydub==0.25.1
+
+# ── Azure Blob Storage (evidence file storage) ────────────────────────────────
+azure-storage-blob>=12.19.0

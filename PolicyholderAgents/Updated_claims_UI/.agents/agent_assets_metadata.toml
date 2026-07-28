@@ -1,0 +1,14 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "uhL2jpKE52szqNGhtiNQl"
+uri = "file://hexaware-claims-portal-deploy.zip"
+type = "unspecified"
+title = "Hexaware Claims Portal - Deployment Package"
+
+[[outputs]]
+id = "HOYq9ttxQwocluxAIxnWu"
+uri = "file://hexaware-claims-portal-standalone.zip"
+type = "unspecified"
+title = "Hexaware Claims Portal - Standalone (Flattened) Deployment"

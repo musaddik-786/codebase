@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(venv/bin/python3 -c ' *)",
+      "Bash(grep -n \"claim_id\\\\|policy_id\" /home/JarvisClaims/Ramakrishna/Jarvis_claims_agents_v3/PolicyholderAgents/MCP/feedback_mcp/handler.py | grep -v \"^\\\\s*[0-9]*:#\")"
+    ]
+  }
+}

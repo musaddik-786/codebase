@@ -1,0 +1,16 @@
+{
+  "claim_triage_ids": {},
+  "fraud_risk_snapshots": 20,
+  "ai_fraud_signals": 37,
+  "fraud_flags": 13,
+  "damage_items": 33,
+  "weather_location_alignment": 16,
+  "drone_authenticity_data": 16,
+  "drone_evidence_summary": 8,
+  "external_verifications": 8,
+  "claim_triage": 35,
+  "auto_assignment_log": 26,
+  "human_approval_requests": 0,
+  "claims_complexity": "Simple",
+  "claims_assigned_adjuster": "Sarah Johnson"
+}
